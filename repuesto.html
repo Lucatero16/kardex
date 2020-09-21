@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset= "UTF-8">
+		<title>Iniciar sesión</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body class="login">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<form class="login-form">
+						<div class="row logo-container mb-3">
+							<div class="col-12">
+								<img src= "Imagenes/Logo.png" alt="Logo" class="logo-img">
+							</div>
+						</div>
+						<div class="row mb-3">
+							<div class= "col-12">
+								<label for= "email" class="form-label">Email</label>
+								<input type= "text" name="email" class="form-control" placeholder="user@mail.com">
+							</div>
+						</div>
+						<div class="row mb-3">
+							<div class= "col-12">
+								<label for= "password" class="form-label">Password</label>
+								<input type= "password" name="password" class="form-control" placeholder="****">
+							</div>
+						</div>
+						<div class="row">
+							<div class= "col-12">
+								<a href="#" class="btn">Iniciar sesión</a>
+								<br>
+								<input type="checkbox" name="Recordar">Recordar usuario
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+
+
+
+* {
+	box-sizing: border-box;
+}
+body{
+	font-size: 14px;	
+}
+.login{
+	background-color: #f3f3f3;
+}
+.container{
+	width: 100%;
+}
+.row{
+	display: block;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6,
+.col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.mb-1{
+	margin-bottom: 0.25em;
+}
+.mb-2{
+	margin-bottom: 0.5em;
+}
+.mb-3{
+	margin-bottom: 1em;
+}
+.mb-4{
+	margin-bottom: 1.5em;
+}
+.mb-5{
+	margin-bottom: 2em;
+}
+.login-form{
+	background-color: white; 
+	margin: auto;
+	margin-top: calc(20% - 150px);
+	width: 500px;
+}
+.logo-container{
+	background-color: #4abc96;
+	text-align: center;
+}
+.logo-img{
+	width: 90px;
+}
+.form-label{
+	display: inline-block;
+	margin-bottom: 5px;
+}
+.form-control{
+	border: 1px solid: #ced4da;
+	border-radius: 4px;
+	color: #495057;
+	display: block;
+	width: 100%;
+	height: 24px;
+	padding: 6px 10px;
+	width: 100%;
+}
